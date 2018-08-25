@@ -32,9 +32,7 @@ Or install it yourself as:
 
 ## Usage
 
-    $ RAILS_ENV=production rake db:sessions:create
-
-Above command will raise an error with message
+Running any of the above tasks in any environment other then development will raise an exception with with message
 `You cannot run this in production`
 
 ## Warning

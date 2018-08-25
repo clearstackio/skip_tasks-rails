@@ -16,6 +16,6 @@ db:setup
 db:structure:load
 test:all:db
 test:db
-).each do |t|
+).select {|t| Rake::Task.task_defined?(t)}.each do |t|
   Rake::Task[t].enhance ['skip_tasks:raise']
 end
