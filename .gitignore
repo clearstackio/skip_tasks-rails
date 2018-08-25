@@ -7,6 +7,7 @@
 /spec/reports/
 /tmp/
 .idea
+*.lock
 
 # rspec failure tracking
 .rspec_status
