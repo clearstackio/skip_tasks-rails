@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ajaya@clearstack.io"]
 
   spec.summary       = 'Disable Active Record destructive DB rake tasks in all environments except development/test'
-  spec.homepage      = "http://clearstack.io"
+  spec.homepage      = "https://github.com/codetheoryio/skip_tasks-rails"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
